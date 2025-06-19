@@ -40,7 +40,7 @@ function App() {
   return (
     <div className="flex flex-col w-full h-full bg-white dark:bg-gray-950">
       <HeaderComponent/>
-      <h1 className='text-4xl font-semibold text-center p-8'>Transforme seu link em um QrCode em poucos cliques!</h1>
+      <h1 className='text-4xl font-semibold text-center p-8'>Transforme seu link em um QrCode com poucos cliques!</h1>
       <div className='w-full flex justify-center gap-5 p-4'>
         <InputModal 
           onGenerate={handleGenerateQrCode} 
